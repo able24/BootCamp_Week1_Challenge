@@ -25,7 +25,7 @@ Open the website and scroll through. The contents are properly divided into sect
 
 ## License
 
-Refer to License my repository
+Refer to License in BootCamp_Week1_Challenge repository
 
 
 
