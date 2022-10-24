@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Styling the all the parts of the <header> element in the body */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,14 +41,37 @@ header nav a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Styling the <figure> element using the hero class*/
 .hero {
     margin-bottom: 25px;
 }
 
+/* The <section> element uses the 'content' class and all the <article> elements in it use the 'content1' class selector*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content1 img {
+    max-height: 200px;
+}
+
+.content1 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling the <img> element in the <article> element */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -58,12 +82,11 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+p {
+    font-size: 16px;
 }
 
+/* The <aside> element is contains <article> elements that are styled using the benefits and benefit1 class selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,32 +108,13 @@ p {
     text-align: center;
 }
 
-
 .benefits1 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.content1 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content1 img {
-    max-height: 200px;
-}
-
-.content1 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Styling of the <footer> element*/
 footer {
     padding: 30px;
     clear: both;
